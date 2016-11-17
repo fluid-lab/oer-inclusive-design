@@ -6,39 +6,20 @@ Have you ever heard of the term "inclusive design" and what do you think it mean
 
 ![Image of inclusion](https://cdn.pixabay.com/photo/2014/08/15/00/55/group-418449_960_720.jpg)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
 
 d
+d
+d
+d
+
