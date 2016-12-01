@@ -28,5 +28,8 @@ li {
 }
 div.desc {
      text-align: center;
+    letter-spacing: 1.0px;
+    line-height: 1.6;
+    font-size: 20px;
 }
     
