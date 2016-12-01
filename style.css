@@ -1,7 +1,11 @@
 p {
   color: #000000;
 }
-
 ul {
   list-style-type: circle;
+}
+table {
+  border: 2px solid green;
+  width: 200;
+  height: 100;
 }
