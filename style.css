@@ -4,7 +4,7 @@ p {
 ul {
   list-style-type: circle;
 }
-table, tr, td{
+a{
   border: 2px solid green;
   width: 200;
   height: 100;
