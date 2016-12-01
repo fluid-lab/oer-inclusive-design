@@ -1,6 +1,10 @@
 p {
-  color: brown;
+  color: black;
 }
 ul {
   list-style-type: circle;
+}
+table, td {
+  border: 2px, solid, blue;
+  width: 80%;
 }
