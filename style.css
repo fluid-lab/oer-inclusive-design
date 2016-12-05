@@ -4,6 +4,12 @@ p {
 ul {
   list-style-type: circle;
 }
+table {
+  width: 350x;
+}
+th {
+  height: 100px
+}
 table, th, td {
   border: 1px solid #00A566;
 }
