@@ -1,3 +1,21 @@
+body {
+    background-color: #FFFFFF;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+h1 {
+    color: #00A566;
+    font-size: 3em;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+h2 {
+    color: #00AA55;
+    font-size: 2.2em;
+    letter-spacing: 1.25px;
+}
 p {
   color: black;
 }
@@ -12,4 +30,17 @@ th {
 }
 table, th, td {
   border: 1px solid #00A566;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+li {
+    font-size: 1.6em;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+div.desc {
+    text-align: center;
+    letter-spacing: 1.0px;
+    font-size: 1.6em;
 }
