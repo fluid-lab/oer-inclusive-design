@@ -47,3 +47,8 @@ div.desc {
     letter-spacing: 1.0px;
     font-size: 1.6em;
 }
+figcaption {
+    text-align: center;
+    letter-spacing: 1.0px;
+    font-size: 1.6em;
+}
