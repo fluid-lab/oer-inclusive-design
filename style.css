@@ -72,5 +72,11 @@ input[type=text] {
     transition: 0.4s;
   
 }
-
-
+input[type=submit] {
+width: 10%;
+    background color: #008566 ;
+    padding: 15px 20px ;
+    margin: 20px;
+}
+        
+    
