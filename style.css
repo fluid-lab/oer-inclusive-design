@@ -60,7 +60,7 @@ textarea {
     border: 3px solid #D7DBDF;
     border-radius: 4px;
     background-color: #EDF2F6;
-    font-size: 18px;
+    font-size: 19px;
     resize: none
     
 }
@@ -71,7 +71,7 @@ input[type=text] {
     box-sizing: border-box;
     border: 3px solid #D7DBDF;
     transition: 0.4s;
-    font-size: 18px
+    font-size: 20px
   
 }
 input[type=submit] {
@@ -80,6 +80,9 @@ width: 20%;
     padding: 15px 20px ;
     margin: 20px;
     color: white;
+    font-size: 20px;
+        cursor: pointer;
+    text-align: center;
 }
 footer {
     padding: 5cm 3cm;
