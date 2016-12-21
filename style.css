@@ -84,7 +84,8 @@ width: 20%;
         cursor: pointer;
     text-align: center;
     border-radius: 8px;
-    margin: 30px, 30px, 30px, 30px
+    margin: auto;
+        
 }
 input[type=submit] :hover {
     background-color: white;
