@@ -52,3 +52,7 @@ figcaption {
     letter-spacing: 0.8px;
     font-size: 1.2em;
 }
+footer {
+    padding: 5cm 3cm;
+    text-align: center;
+}
