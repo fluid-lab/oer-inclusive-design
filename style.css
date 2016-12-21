@@ -60,23 +60,26 @@ textarea {
     border: 3px solid #D7DBDF;
     border-radius: 4px;
     background-color: #EDF2F6;
-    font-size: 17px;
+    font-size: 18px;
+    resize: none
     
 }
 input[type=text] {
-    width: 80%;
-    padding: 20px 20px;
-    margin: 40px ;
+    width: 50%;
+    padding: 10px 10px;
+    margin: 15px ;
     box-sizing: border-box;
     border: 3px solid #D7DBDF;
     transition: 0.4s;
+    font-size: 18px
   
 }
 input[type=submit] {
-width: 10%;
+width: 20%;
     background-color: #008566 ;
     padding: 15px 20px ;
     margin: 20px;
+    color: white;
 }
 footer {
     padding: 5cm 3cm;
