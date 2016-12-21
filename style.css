@@ -78,5 +78,7 @@ width: 10%;
     padding: 15px 20px ;
     margin: 20px;
 }
-        
-    
+footer {
+    padding: 5cm 3cm;
+    text-align: center;
+}
