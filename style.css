@@ -86,7 +86,7 @@ width: 20%;
     border-radius: 8px;
 }
 input[type=submit] :hover {
-    background: white;
+    background-color: white;
 }
 footer {
     padding: 5cm 3cm;
