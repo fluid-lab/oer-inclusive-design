@@ -94,3 +94,10 @@ footer {
     padding: 5cm 3cm;
     text-align: center;
 }
+nav {
+    float: left;
+    background-color: #008566;
+    color: black;
+}
+    
+        
