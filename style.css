@@ -94,6 +94,12 @@ footer {
     padding: 5cm 3cm;
     text-align: center;
 }
+div.container {
+    border: 2px black ;
+    width: 15%;
+    margin: 25px 25px 25px;
+}
+        
 nav {
     float: left;
     background-color: #008566;
