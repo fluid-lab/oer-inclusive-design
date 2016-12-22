@@ -95,10 +95,10 @@ footer {
     text-align: center;
 }
 div.container {
-    border: 5px black ;
-    width: 15%;
-    margin: 40px 50px 40px;
-    padding: 15px 15px 15px 15px;
+    border: 5px solid black ;
+    width: 16%;
+    margin: 40px 50px 40px 40px;
+    padding :1cm 1cm 1cm 1cm ;
 }
         
 nav {
