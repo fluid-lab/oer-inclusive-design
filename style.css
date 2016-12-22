@@ -95,7 +95,7 @@ footer {
     text-align: center;
 }
 div.container {
-    border: 5px solid black ;
+    border: 5px  ;
     width: 16%;
     margin: 40px 50px 40px 40px;
     padding :1cm 1cm 1cm 1cm ;
@@ -103,8 +103,11 @@ div.container {
         
 nav {
     float: left;
+    padding: 10px;
     background-color: #00AA55;
     color: black;
+    margin: 1cm;
+ 
 }
     
         
