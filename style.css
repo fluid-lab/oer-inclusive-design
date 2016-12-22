@@ -95,9 +95,9 @@ footer {
     text-align: center;
 }
 div.container {
-    border: 2px black ;
+    border: 5px black ;
     width: 15%;
-    margin: 25px 25px 25px;
+    margin: 40px 50px 40px;
 }
         
 nav {
