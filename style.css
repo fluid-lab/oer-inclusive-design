@@ -76,7 +76,7 @@ input[type=text] {
 }
 input[type=submit] {
 width: 20%;
-    background-color: #008566 ;
+    background-color: #00A566 ;
     padding: 10px 10px;
     margin: 20px;
     color: white;
@@ -94,3 +94,23 @@ footer {
     padding: 5cm 3cm;
     text-align: center;
 }
+div.container {
+    border: 5px  ;
+    width: 16%;
+    margin: 40px 50px 40px 0px;
+    padding :1cm 1cm 1cm 1cm ;
+}
+        
+nav {
+    float: left;
+    padding: 10px;
+    background-color: #00AA55;
+    color: black;
+    margin: 1cm;
+    border: 3px solid black;
+}
+    
+ 
+
+    
+        
