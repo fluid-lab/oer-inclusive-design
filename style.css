@@ -29,7 +29,7 @@ ul {
         padding: 0
         background-color: #00AA55;
 }
-li {
+li a {
     text-align: center
     display: block;
     float: left;
