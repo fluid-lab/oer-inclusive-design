@@ -24,16 +24,7 @@ p {
     line-height: 1.6;
 }
 ul {
-  list-style-type: none;
-    margin: 0
-        padding: 0
-        background-color: #00AA55;
-}
-li a {
-    text-align: center
-    display: block;
-    float: left;
-}
+  list-style-type: circle;
 }
 li {
     font-size: 1.6em;
@@ -69,8 +60,6 @@ nav {
     margin: 1cm;
     border: 3px solid black;
 }
-    
- 
 
     
         
