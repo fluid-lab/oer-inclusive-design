@@ -24,19 +24,16 @@ p {
     line-height: 1.6;
 }
 ul {
-  list-style-type: circle;
+  list-style-type: none;
+    margin: 0
+        padding: 0
+        background-color: #00AA55;
 }
-table {
-  width: 350x;
+li {
+    text-align: center
+    display: block;
+    float: left;
 }
-th {
-  height: 100px
-}
-table, th, td {
-  border: 1px solid #00AA55;
-  font-size: 1.5em;
-  letter-spacing: 1px;
-  line-height: 1.6;
 }
 li {
     font-size: 1.6em;
