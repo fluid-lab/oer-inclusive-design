@@ -5,10 +5,13 @@ body {
 ul.toolbarcss {
     list-style-type: none;
     margin: 0; 
-    padding: 0;
     background-color: #00AA55;
     display: flex;
     justify-content: space-around;
+    height: 50px;
+    border: solid;
+    margin-top: 20px;
+    padding: 25px 0;
 }
 img {
     display: block;
