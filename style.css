@@ -2,6 +2,11 @@ body {
     background-color: #FFFFFF;
     padding: 0px 5px;
 }
+ul.toolbarcss {
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+    background-color: #00AA55;
 img {
     display: block;
     margin: 0 auto;
