@@ -83,9 +83,6 @@ input[type=submit] {
     border-radius: 8px;
     margin: auto;
 }
-input[type=submit] :hover {
-    background-color: white;
-}
 footer {
     padding: 5cm 3cm;
     text-align: center;
