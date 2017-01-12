@@ -7,6 +7,8 @@ ul.toolbarcss {
     margin: 0; 
     padding: 0;
     background-color: #00AA55;
+    display: flex;
+    justify-content: space-around;
 }
 ul.toolbarcss2 {
     display: block;
