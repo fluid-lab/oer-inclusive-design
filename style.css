@@ -16,31 +16,26 @@ ul.toolbarcss {
     text-align: center;
 }
 li.p1 {
-    width: 100pt;
-    text-align: right;
+      border-style: solid;
+    width: 260pt;
+    text-align: center;
 }
 li.p2 {
     border-style: solid;
     border-bottom: 0;
-    border-top: 0;
-    width: 285pt;
+    width: 300pt;
+    text-align: center;
+    height: 100px;
 }
 li.p3 {
     border-style: solid;
-    border-bottom: 0;
-    border-top: 0;
-    border-left: 0;
-    width: 170pt;
-    text-align: left;
+    width: 260pt;
+    text-align: center;
 }
 li.p4 {
+    text-align: center;
+    width: 260pt;
     border-style: solid;
-    border-bottom: 0;
-    border-top: 0;
-    width: 100pt;
-    border-left: 0;
-    border-right: 0;
-    text-align: left;
 }
     
 img {
@@ -49,29 +44,23 @@ img {
 }
 h1 {
     color: #00AA55;
-    font-size: 3.8em;
-    text-align: center;
-    letter-spacing: 1.75px;
-}
-h2 {
-    color: #00AA55;
     font-size: 3em;
     text-align: center;
     letter-spacing: 1.5px;
 }
-h3 {
+h2 {
     color: #00AA55;
     font-size: 2.2em;
     letter-spacing: 1.25px;
 }
 p {
-    color: black;
+  color: black;
     font-size: 1.5em;
     letter-spacing: 1px;
     line-height: 1.6;
 }
 ul {
-    list-style-type: circle;
+  list-style-type: circle;
 }
 li {
     font-size: 1.6em;
@@ -98,6 +87,7 @@ div.container {
     margin: 40px 50px 40px 0px;
     padding :1cm 1cm 1cm 1cm ;
 }
+        
 nav {
     float: left;
     padding: 10px;
@@ -106,3 +96,6 @@ nav {
     margin: 1cm;
     border: 3px solid black;
 }
+
+    
+        
