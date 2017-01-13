@@ -44,11 +44,17 @@ img {
 }
 h1 {
     color: #00AA55;
+    font-size: 3.5;
+    text-align: center;
+    letter-spacing: 1.75;
+}
+h2 {
+    color: #00AA55;
     font-size: 3em;
     text-align: center;
     letter-spacing: 1.5px;
 }
-h2 {
+h3 {
     color: #00AA55;
     font-size: 2.2em;
     letter-spacing: 1.25px;
@@ -96,6 +102,3 @@ nav {
     margin: 1cm;
     border: 3px solid black;
 }
-
-    
-        
