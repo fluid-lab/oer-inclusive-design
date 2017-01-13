@@ -4,21 +4,23 @@ body {
 }
 ul.toolbarcss {
     list-style-type: none;
-    margin: 0; 
+    margin: 0;
     background-color: #00AA55;
     display: flex;
     justify-content: space-around;
-    height: 50px;
+    height: 80px;
     border: solid;
     margin-top: 20px;
-    padding: 25px 0;
+    padding: 20px 0;
+    font-size: 15pt;
+    text-align: center;
 }
 li.p1 {
-        width: 100pt;
+    width: 100pt;
     text-align: right;
 }
 li.p2 {
-        border-style: solid;
+    border-style: solid;
     border-bottom: 0;
     border-top: 0;
     width: 285pt;
