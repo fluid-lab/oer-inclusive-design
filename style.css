@@ -13,6 +13,34 @@ ul.toolbarcss {
     margin-top: 20px;
     padding: 25px 0;
 }
+li.p1 {
+        width: 100pt;
+    text-align: right;
+}
+li.p2 {
+        border-style: solid;
+    border-bottom: 0;
+    border-top: 0;
+    width: 285pt;
+}
+li.p3 {
+    border-style: solid;
+    border-bottom: 0;
+    border-top: 0;
+    border-left: 0;
+    width: 170pt;
+    text-align: left;
+}
+li.p4 {
+    border-style: solid;
+    border-bottom: 0;
+    border-top: 0;
+    width: 100pt;
+    border-left: 0;
+    border-right: 0;
+    text-align: left;
+}
+    
 img {
     display: block;
     margin: 0 auto;
