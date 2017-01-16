@@ -23,18 +23,6 @@ p {
 ul {
     list-style-type: circle;
 }
-table {
-    width: 350x;
-}
-th {
-    height: 100px
-}
-table, th, td {
-    border: 1px solid #00AA55;
-    font-size: 1.5em;
-    letter-spacing: 1px;
-    line-height: 1.6;
-}
 li {
     font-size: 1.6em;
     letter-spacing: 1px;
