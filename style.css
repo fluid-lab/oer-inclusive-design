@@ -102,7 +102,7 @@ li.p4 {
     border-style: solid;
 }
 div.logo {
-    margin-top: -50px;
+    margin: -50px 0px;
     float: left;
     top: 0;
 }
