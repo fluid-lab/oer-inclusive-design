@@ -60,13 +60,13 @@ h3 {
     letter-spacing: 1.25px;
 }
 p {
-  color: black;
+    color: black;
     font-size: 1.5em;
     letter-spacing: 1px;
     line-height: 1.6;
 }
 ul {
-  list-style-type: circle;
+    list-style-type: circle;
 }
 li {
     font-size: 1.6em;
