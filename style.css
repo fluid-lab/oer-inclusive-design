@@ -49,12 +49,11 @@ footer {
     text-align: center;
 }
 div.container {
-    border: 5px  ;
+    border: 5px;
     width: 16%;
     margin: 40px 50px 40px 0px;
     padding :1cm 1cm 1cm 1cm ;
 }
-        
 nav {
     float: left;
     padding: 10px;
@@ -81,7 +80,7 @@ ul.toolbarcss {
     text-align: center;
 }
 li.p1 {
-      border-style: solid;
+    border-style: solid;
     width: 260pt;
     text-align: center;
 }
@@ -101,4 +100,7 @@ li.p4 {
     text-align: center;
     width: 260pt;
     border-style: solid;
+}
+div.logo {
+    margin: 25px;
 }
