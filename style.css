@@ -24,6 +24,7 @@ p {
     font-size: 1.5em;
     letter-spacing: 1px;
     line-height: 1.6;
+    padding: 0px 5px;
 }
 ul {
     list-style-type: circle;
@@ -101,4 +102,3 @@ li.p4 {
     width: 260pt;
     border-style: solid;
 }
-    
