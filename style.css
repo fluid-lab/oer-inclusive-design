@@ -107,5 +107,14 @@ div.logo {
     top: 0;
 }
 li.p1:hover {
-    color: blue
+    background-color: black
+}
+li.p2:hover {
+    background-color: black
+}
+li.p3:hover {
+    background-color: black
+}
+li.p4:hover {
+    background-color: black
 }
