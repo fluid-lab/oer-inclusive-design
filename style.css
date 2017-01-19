@@ -106,3 +106,6 @@ div.logo {
     float: left;
     top: 0;
 }
+li.p1:hover {
+    color: blue
+}
