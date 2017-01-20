@@ -108,15 +108,19 @@ div.logo {
 }
 li.p1:hover {
     background-color: black
+        color: white
 }
 li.p2:hover {
     background-color: black
+        color: white
 }
 li.p3:hover {
     background-color: black
+        color: white
 }
 li.p4:hover {
     background-color: black
+        color: white
 }
 a.a1:hover {
     color:white
