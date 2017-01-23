@@ -45,8 +45,11 @@ figcaption {
     font-size: 1.2em;
 }
 footer {
-    padding: 5cm 3cm;
+    padding: 3cm;
     text-align: center;
+}
+footer p {
+    color: #00AA55;
 }
 div.container {
     border: 5px;
