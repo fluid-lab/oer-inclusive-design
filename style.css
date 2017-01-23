@@ -47,9 +47,9 @@ figcaption {
 footer {
     padding: 3cm;
     text-align: center;
-    p {
-        color: #00AA55;
-    }
+}
+footer p {
+    color: #00AA55;
 }
 div.container {
     border: 5px;
