@@ -109,3 +109,59 @@ div.logo {
     float: left;
     top: 0;
 }
+li.p1:hover {
+    background-color: black;
+        color: white;
+}
+li.p2:hover {
+    background-color: black;
+        color: white;
+}
+li.p3:hover {
+    background-color: black;
+        color: white;
+}
+li.p4:hover {
+    background-color: black;
+        color: white;
+}
+li.p1:active {
+    background-color: black;
+        color: white;
+}
+li.p2:active {
+    background-color: black;
+        color: white;
+}
+li.p3:active {
+    background-color: black;
+        color: white;
+}
+li.p4:active {
+    background-color: black;
+        color: white;
+}
+a.a1:hover {
+    color:white
+}
+a.a2:hover {
+    color:white
+}
+a.a3:hover {
+    color:white
+}
+a.a4:hover {
+    color:white
+}
+a.a1:active {
+    color:white
+}
+a.a2:active {
+    color:white
+}
+a.a3:active {
+    color:white
+}
+a.a4:active {
+    color:white
+}
