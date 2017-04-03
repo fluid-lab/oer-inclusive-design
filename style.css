@@ -109,14 +109,15 @@ div.nav {
 }
 
 .nav li {
-  height:90px;
-  line-height: 90px;
+  height:4.6em;
+  line-height: 4.6em;
   font-size: 1.2em;
   font-family: 'Palanquin', sans-serif;
   text-transform: uppercase;
   display: inline-block;
 }
 .nav a {
+  max-height: 4.6em;
   text-decoration: none;
   text-align: center;
   color: #000;
@@ -126,13 +127,34 @@ div.nav {
 }
 
 .nav a:hover {
-  background-color: #f4f4f4;
+  color: #009fcc;
 }
 
 .nav a.active {
   background-color: #f4f4f4;
   color: ##000;
   cursor: default;
+  text-decoration: overline;
+  }
+
+.nav li ul {
+  position: absolute;
+  display: none;
+  max-width: 18em;
+}
+
+.nav li li {
+  float: left;
+  font-size: .8em;
+
+}
+
+.nav li:hover ul {
+  display: block;
+}
+
+.nav li ul li {
+  display: block;
 }
 
 li.p1 {
