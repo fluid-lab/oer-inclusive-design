@@ -149,9 +149,11 @@ div.nav {
 
 }
 
+.nav li:focus ul,
 .nav li:hover ul {
   display: block;
 }
+
 
 .nav li ul li {
   display: block;
