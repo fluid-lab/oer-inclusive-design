@@ -129,6 +129,10 @@ header {
   text-decoration: overline;
 }
 
+.subactive {
+  text-decoration: underline;
+}
+
 /* first descendant link within a top level navigation item */
 .nav-item > a {
   position: relative;
