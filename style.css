@@ -33,19 +33,11 @@ h3 {
 }
 p {
     color: black;
-    font-size: 1.5em;
+    font-size: 1.3em;
     letter-spacing: 1px;
     line-height: 1.6;
     padding: 0px 5px;
     font-family: 'Palanquin', sans-serif;
-}
-ul {
-    list-style-type: circle;
-}
-li {
-    font-size: 1.6em;
-    letter-spacing: 1px;
-    line-height: 1.5;
 }
 div.desc {
     text-align: center;
@@ -93,152 +85,107 @@ div.content {
   padding-top: 6em;
   padding-bottom: 12em;
 }
-div.nav {
-  height: 5.5em;
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 7em;
   padding-right: 7em;
-  padding-left: 3em;
 }
 
-.nav ul {
-  background-color: #fff;
+
+/* mega menu list */
+.nav-menu {
   display: inline;
-  list-style: none;
+  position: relative;
+  background-color: #fff;
   float: right;
-  padding: 0;
+  list-style: none;
   margin: 0;
+  padding: 0;
+  z-index: 15;
+  color: #fff;
 }
 
-.nav li {
-  height:4.6em;
-  line-height: 4.6em;
-  font-size: 1.2em;
-  font-family: 'Palanquin', sans-serif;
-  text-transform: uppercase;
-  display: inline-block;
-}
-.nav a {
-  max-height: 4.6em;
-  text-decoration: none;
-  text-align: center;
-  color: #000;
-  display: block;
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
-.nav a:hover {
+.nav-menu a:hover {
   color: #009fcc;
 }
 
-.nav a.active {
+/* a top level navigation item in the mega menu */
+.nav-item {
+  color: #000;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0;
+  font-family: 'Palanquin', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+
+.active {
   background-color: #f4f4f4;
-  color: ##000;
+  color: #000;
   cursor: default;
   text-decoration: overline;
-  }
+}
 
-.nav li ul {
+/* first descendant link within a top level navigation item */
+.nav-item > a {
+  position: relative;
+  display: inline-block;
+  padding: 0.5em;
+  padding-right: 2em;
+  padding-left: 2em;
+  border: 1px solid transparent;
+}
+
+/* open state of first descendant link within a top level
+navigation item */
+.nav-item > a.open {
+  background-color: #fff;
+  border-bottom: none;
+  z-index: 1;
+}
+
+/* sub-navigation panel */
+.sub-nav {
   position: absolute;
   display: none;
-  max-width: 18em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  padding-bottom: 1em;
+  background-color: #fff;
+  font-size: 0.8em;
+  font-family: 'Palanquin', sans-serif;
+  text-transform: uppercase;
+  line-height: 3em;
+  color: #FFF;
 }
 
-.nav li li {
-  float: left;
-  font-size: .8em;
-
-}
-
-.nav li:focus ul,
-.nav li:hover ul {
+/* sub-navigation panel open state */
+.sub-nav.open {
   display: block;
 }
 
+/* list of items within sub-navigation panel */
+.sub-nav ul {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 1em 0 0;
+  padding: 0;
+}
 
-.nav li ul li {
+/* list item within sub-navigation panel */
+.sub-nav li {
+  color: #fff;
   display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-li.p1 {
-    border-style: solid;
-    width: 260pt;
-    text-align: center;
-}
-li.p2 {
-    border-style: solid;
-    border-bottom: 0;
-    width: 300pt;
-    text-align: center;
-    height: 100px;
-}
-li.p3 {
-    border-style: solid;
-    width: 260pt;
-    text-align: center;
-}
-li.p4 {
-    text-align: center;
-    width: 260pt;
-    border-style: solid;
-}
-div.logo {
-    margin: -50px 0px;
-    float: left;
-    top: 0;
-}
-li.p1:hover {
-    background-color: black;
-        color: white;
-}
-li.p2:hover {
-    background-color: black;
-        color: white;
-}
-li.p3:hover {
-    background-color: black;
-        color: white;
-}
-li.p4:hover {
-    background-color: black;
-        color: white;
-}
-li.p1:active {
-    background-color: black;
-        color: white;
-}
-li.p2:active {
-    background-color: black;
-        color: white;
-}
-li.p3:active {
-    background-color: black;
-        color: white;
-}
-li.p4:active {
-    background-color: black;
-        color: white;
-}
-a.a1:hover {
-    color:white
-}
-a.a2:hover {
-    color:white
-}
-a.a3:hover {
-    color:white
-}
-a.a4:hover {
-    color:white
-}
-a.a1:active {
-    color:white
-}
-a.a2:active {
-    color:white
-}
-a.a3:active {
-    color:white
-}
-a.a4:active {
-    color:white
+
+nav a {
+  text-decoration: none;
+  color: #000;
 }
