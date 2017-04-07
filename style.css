@@ -19,10 +19,15 @@ span{
   font-size: 0.6em;
 }
 h2 {
-    color: #00AA55;
-    font-size: 3em;
-    text-align: center;
-    letter-spacing: 1.5px;
+  color: #6d6b6c;
+  font-size: 4.5em;
+  text-align: center;
+  font-weight: 200;
+  letter-spacing: 1.75;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 10;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
 }
 h3 {
   color: #009fcc;
@@ -71,8 +76,8 @@ div.title {
   height: auto;
   background-color: #f4f4f4;
   margin: 0;
-  padding-right: 10em;
-  padding-left: 10em;
+  padding-right: 18em;
+  padding-left: 18em;
   padding-top: 4em;
   padding-bottom: 4em;
 }
@@ -192,4 +197,17 @@ navigation item */
 nav a {
   text-decoration: none;
   color: #000;
+}
+
+.column1, .column2, .column3, .column4, .column5, .column6{
+  width: 30%;
+  display: table-cell;
+  padding: 15px 25px;
+}
+@media only screen
+and (max-width: 1300px) {
+  .column1, .column2, .column3, .column4, .column5, .column6{
+    display: table-row;
+    width: 100%;
+  }
 }
