@@ -26,5 +26,7 @@
         /* css class for the open state */
         openClass: "open"
       });
+
+      
     });
 })(jQuery);
