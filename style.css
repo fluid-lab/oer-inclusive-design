@@ -8,7 +8,7 @@ img {
     margin: 0 auto;
 }
 h1 {
-    color: #009fcc;
+    color: #2574a9;
     font-size: 5.8em;
     text-align: center;
     font-weight: 200;
@@ -19,7 +19,7 @@ span{
   font-size: 0.6em;
 }
 h2 {
-  color: #6d6b6c;
+  color: #4d4b4c;
   font-size: 4.5em;
   text-align: center;
   font-weight: 200;
@@ -30,7 +30,7 @@ h2 {
   border-bottom-width: thin;
 }
 h3 {
-  color: #009fcc;
+  color: #2574a9;
     font-size: 1.8em;
     letter-spacing: 1.25px;
     font-family: 'Palanquin', sans-serif;
@@ -113,7 +113,7 @@ header {
 }
 
 .nav-menu a:hover {
-  color: #009fcc;
+  color: #2574a9;
 }
 
 /* a top level navigation item in the mega menu */
