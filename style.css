@@ -4,16 +4,16 @@ body {
   margin: 0;
 }
 img {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 h1 {
-    color: #2574a9;
-    font-size: 5.8em;
-    text-align: center;
-    font-weight: 200;
-    letter-spacing: 1.75;
-    font-family: 'Josefin Sans', sans-serif;
+  color: #2574a9;
+  font-size: 5.8em;
+  text-align: center;
+  font-weight: 200;
+  letter-spacing: 1.75;
+  font-family: 'Josefin Sans', sans-serif;
 }
 span{
   font-size: 0.6em;
@@ -31,45 +31,45 @@ h2 {
 }
 h3 {
   color: #2574a9;
-    font-size: 1.8em;
-    letter-spacing: 1.25px;
-    font-family: 'Palanquin', sans-serif;
-    font-weight: 100;
+  font-size: 1.8em;
+  letter-spacing: 1.25px;
+  font-family: 'Palanquin', sans-serif;
+  font-weight: 100;
 }
 p {
-    color: black;
-    font-size: 1.3em;
-    letter-spacing: 1px;
-    line-height: 1.6;
-    padding: 0px 5px;
-    font-family: 'Palanquin', sans-serif;
+  color: black;
+  font-size: 1.3em;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  padding: 0px 5px;
+  font-family: 'Palanquin', sans-serif;
 }
 div.desc {
-    text-align: center;
-    letter-spacing: 1.0px;
-    font-size: 1.6em;
+  text-align: center;
+  letter-spacing: 1.0px;
+  font-size: 1.6em;
 }
 figcaption {
-    text-align: center;
-    letter-spacing: 0.8px;
-    font-size: 1.2em;
+  text-align: center;
+  letter-spacing: 0.8px;
+  font-size: 1.2em;
 }
 footer {
-    padding: 0.5em;
-    padding-right: 7em;
-    padding-left: 7em;
-    background-color: #f4f4f4;
-    text-align: right;
+  padding: 0.5em;
+  padding-right: 7em;
+  padding-left: 7em;
+  background-color: #f4f4f4;
+  text-align: right;
 }
 footer p {
-    color: #000;
-    font-size:1em;
+  color: #000;
+  font-size:1em;
 }
 div.container {
-    border: 5px;
-    width: 16%;
-    margin: 40px 50px 40px 0px;
-    padding :1cm 1cm 1cm 1cm ;
+  border: 5px;
+  width: 16%;
+  margin: 40px 50px 40px 0px;
+  padding :1cm 1cm 1cm 1cm ;
 }
 div.title {
   max-width: 100vw;
@@ -210,4 +210,62 @@ and (max-width: 1300px) {
     display: table-row;
     width: 100%;
   }
+}
+
+
+
+@media screen and (max-width : 1017px){
+  .sub-nav {
+    position: relative;
+    display: hidden;
+  }
+  header {
+    display: block;
+    padding: 0;
+  }
+  .nav-item {
+    width:100%;
+    text-align: center;
+    position: relative;
+    padding: 0;
+  }
+  .active {
+    background-color: #f4f4f4;
+    color: #000;
+    cursor: default;
+    text-decoration: overline;
+    padding-right: 0em;
+    padding-left: 0em;
+    width: 100%;
+  }
+  .nav-item > a {
+    padding-right: 0em;
+    padding-left: 0em;
+  }
+  div.title{
+    clear: both;
+  }
+  /* mega menu list */
+  .nav-menu {
+    display: block;
+    position: relative;
+    background-color: #fff;
+    float: center;
+    width: 100%;
+  }
+  nav a {
+    width: 100%;
+  }
+  h1{
+  font-size: 4em;
+  }
+  h2{
+  font-size:2.7em;}
+  h3{
+    font-size:1.6em;
+  }
+  p{
+    font-size:1.2em;
+  }
+
 }

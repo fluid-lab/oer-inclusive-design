@@ -27,6 +27,6 @@
         openClass: "open"
       });
 
-      
+
     });
 })(jQuery);
