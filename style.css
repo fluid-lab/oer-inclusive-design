@@ -18,6 +18,7 @@ h1 {
 span{
   font-size: 0.6em;
 }
+
 h2 {
   color: #4d4b4c;
   font-size: 4.5em;
@@ -65,12 +66,7 @@ footer p {
   color: #000;
   font-size:1em;
 }
-div.container {
-  border: 5px;
-  width: 16%;
-  margin: 40px 50px 40px 0px;
-  padding :1cm 1cm 1cm 1cm ;
-}
+
 div.title {
   max-width: 100vw;
   height: auto;
@@ -92,15 +88,31 @@ div.content {
 }
 
 header {
+  max-width: 100vw;
   display: flex;
   justify-content: space-between;
   padding-left: 7em;
   padding-right: 7em;
 }
 
+button {
+  font-family: 'Palanquin', sans-serif;
+  background-color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #2F4F4F;
+  color: #2574a9;
+  padding: 0.3em 0.3em;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: none;
+  font-size: 1.2em;
+}
 
 /* mega menu list */
 .nav-menu {
+  max-width: 100vw;
   display: inline;
   position: relative;
   background-color: #fff;
@@ -173,14 +185,14 @@ navigation item */
 
 /* sub-navigation panel open state */
 .sub-nav.open {
-  display: block;
+  display: inline-block;
 }
 
 /* list of items within sub-navigation panel */
 .sub-nav ul {
   display: inline-block;
   vertical-align: top;
-  margin: 0 1em 0 0;
+  margin: 0;
   padding: 0;
 }
 
@@ -192,7 +204,6 @@ navigation item */
   margin: 0;
   padding: 0;
 }
-
 
 nav a {
   text-decoration: none;
@@ -215,27 +226,48 @@ and (max-width: 1300px) {
 
 
 @media screen and (max-width : 1017px){
+  #hidden {
+    display: none;
+  }
+  div.title {
+    padding-right: 5em;
+    padding-left: 5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  div.content {
+    padding-right: 5em;
+    padding-left: 5em;
+    padding-top: 2em;
+    padding-bottom: 8em;
+  }
+  button{
+    display:block;
+  }
   .sub-nav {
     position: relative;
     display: hidden;
   }
   header {
+    width: 100%;
     display: block;
     padding: 0;
+    margin: 0;
   }
   .nav-item {
     width:100%;
     text-align: center;
     position: relative;
     padding: 0;
+    margin: 0;
   }
   .active {
     background-color: #f4f4f4;
     color: #000;
     cursor: default;
     text-decoration: overline;
-    padding-right: 0em;
-    padding-left: 0em;
+    padding: 0;
+    margin: 0;
     width: 100%;
   }
   .nav-item > a {
@@ -251,21 +283,20 @@ and (max-width: 1300px) {
     position: relative;
     background-color: #fff;
     float: center;
-    width: 100%;
+    width: 100vw;
   }
   nav a {
     width: 100%;
   }
   h1{
-  font-size: 4em;
+    font-size: 4em;
   }
   h2{
-  font-size:2.7em;}
-  h3{
-    font-size:1.6em;
-  }
-  p{
-    font-size:1.2em;
-  }
-
+    font-size:2.7em;}
+    h3{
+      font-size:1.6em;
+    }
+    p{
+      font-size:1.2em;
+    }
 }

@@ -1,5 +1,6 @@
 (function ($) {
     $("document").ready(function () {
+
       $("nav:first").accessibleMegaMenu({
         /* prefix for generated unique id attributes, which are required
         to indicate aria-owns, aria-controls and aria-labelledby */
@@ -26,7 +27,4 @@
         /* css class for the open state */
         openClass: "open"
       });
-
-
-    });
 })(jQuery);

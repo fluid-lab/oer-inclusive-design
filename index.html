@@ -15,6 +15,8 @@
 
   <header>
     <a href="index.html"><img src="pictures/logo_large_idrc.png" alt="IDRC/OCAD U logo" style="height:3.45em"; title="Click here to go to the homepage"; ></a>
+    <button onclick="myFunction()">MENU</button>
+    <div id="hidden">
     <nav>
       <ul class="nav-menu">
         <li class="nav-item">
@@ -50,6 +52,7 @@
         </li>
       </ul>
     </nav>
+  </div>
   </header>
 
   <div class="title">
@@ -62,11 +65,22 @@
 
       The problems that the marginalized face can be experienced by anyone. For example, an app that relies on drag-and-drop interaction does not satisfy the needs of a screen reader user or someone with a broken wrist. In this case the person with a broken wrist is facing the same issue as a person who uses a screen reader albeit one may be temporary. If the design was created considering this issue, this problem would not have arisen; problems that can be encountered by anyone. </p>
     </div>
+    <script>
+    function myFunction() {
+      var x = document.getElementById('hidden');
+      if (x.style.display === 'none') {
+        x.style.display = 'block';
+      } else {
+        x.style.display = 'none';
+      }
+    }
+    
+    </script>
   </body>
+
 
   <footer>
     <p>'Inclusion through Design' - an Inclusive Design Open Education Resource - Produced by the Inclusive Design Research Centre - at OCAD University<br>
       Published: April, 2017. Last Updated: April, 2017 <br> This work is licensed under SOMETHING, WILL ADD LATER</p>
     </footer>
     </html>
-    
