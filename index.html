@@ -4,10 +4,9 @@
   <title>Home page | Inclusion through Design</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100|Palanquin:300" rel="stylesheet">
-
-  <script src="js/jquery-1.10.1.min.js"></script>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src="js/index.js"></script>
   <script src="js/jquery-accessibleMegaMenu.js"></script>
-  <script src="js/site.js"></script>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
 </head>
@@ -15,8 +14,13 @@
 
   <header>
     <a href="index.html"><img src="pictures/logo_large_idrc.png" alt="IDRC/OCAD U logo" style="height:3.45em"; title="Click here to go to the homepage"; ></a>
-    <button onclick="myFunction()">MENU</button>
-    <div id="hidden">
+    <button id="nav-icon3">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+  </button>
+    <div id="menu">
     <nav>
       <ul class="nav-menu">
         <li class="nav-item">
@@ -65,16 +69,6 @@
 
       The problems that the marginalized face can be experienced by anyone. For example, an app that relies on drag-and-drop interaction does not satisfy the needs of a screen reader user or someone with a broken wrist. In this case the person with a broken wrist is facing the same issue as a person who uses a screen reader albeit one may be temporary. If the design was created considering this issue, this problem would not have arisen; problems that can be encountered by anyone. </p>
     </div>
-    <script>
-    function myFunction() {
-      var x = document.getElementById('hidden');
-      if (x.style.display === 'none') {
-        x.style.display = 'block';
-      } else {
-        x.style.display = 'none';
-      }
-    }
-    </script>
   </body>
 
 
