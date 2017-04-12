@@ -207,7 +207,6 @@ nav a {
   padding: 15px 25px;
 }
 
-
 @media only screen
 and (max-width: 1300px) {
   .column1, .column2, .column3, .column4, .column5, .column6{
@@ -216,9 +215,8 @@ and (max-width: 1300px) {
   }
 }
 
-
-
 @media screen and (max-width : 1017px){
+
   #nav-icon3{
     width: 30px;
     height: 22.5px;
@@ -299,6 +297,11 @@ and (max-width: 1300px) {
   #menu {
     display: none;
   }
+
+  #menu.mobileOpen {
+    display: block;
+  }
+
   div.title {
     padding-right: 5em;
     padding-left: 5em;
