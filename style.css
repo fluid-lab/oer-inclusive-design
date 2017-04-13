@@ -217,6 +217,7 @@ and (max-width: 1300px) {
 
 @media screen and (max-width : 1017px){
 
+
   #nav-icon3{
     width: 30px;
     height: 22.5px;
@@ -316,8 +317,7 @@ and (max-width: 1300px) {
   }
   button{
     display:block;
-    padding-right: 3em;
-    float: right;
+    float:  right;
   }
   .sub-nav {
     position: relative;
