@@ -8,6 +8,47 @@
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
   <script src="js/index.js"></script>
   <script src="js/jquery-accessibleMegaMenu.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+  $("nav:first").accessibleMegaMenu({
+
+    /* Button that toggles navigation at mobile */
+    navToggle: '#nav-toggle',
+
+    /* Id of navigation */
+    navId: '#primary-nav',
+
+    /* mobile breakpoint in pixels that determines when the menu goes to mobile */
+    mobileBreakpoint: '757',
+    /* prefix for generated unique id attributes, which are required
+    to indicate aria-owns, aria-controls and aria-labelledby */
+    uuidPrefix: 'accessible-megamenu',
+
+    /* css class used to define the megamenu styling */
+    menuClass: 'nav-menu',
+
+    /* css class for a top-level navigation item in the megamenu */
+    topNavItemClass: 'nav-item',
+
+    /* css class for a top-level icon in the megamenu (displayed at mobile) */
+    topNavIconClass: '.icon',
+
+    /* css class for a megamenu panel */
+    panelClass: 'sub-nav',
+
+    /* css class for a group of items within a megamenu panel */
+    panelGroupClass: 'sub-nav-group',
+
+    /* css class for the hover state */
+    hoverClass: 'hover',
+
+    /* css class for the focus state */
+    focusClass: 'focus',
+
+    /* css class for the open state */
+    openClass: 'open'
+  });
+  </script>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
 </head>
@@ -15,20 +56,21 @@
 
  <header>
     <a href="index.html"><img src="pictures/logo_large_idrc.png" alt="IDRC/OCAD U logo" style="height:3.45em"; title="Click here to go to the homepage"; ></a>
-    <button id="nav-icon3">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-  </button>
-    <div id="menu">
-    <nav>
+    <a id="nav-toggle" href="#primary-nav">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+
+    <nav id="primary-nav">
       <ul class="nav-menu">
         <li class="nav-item">
           <a class= "active" href="index.html">Home</a>
         </li>
         <li class="nav-item">
           <a href="about/about-page.html">About</a>
+          <i class="icon"></i>
           <div class="sub-nav">
             <ul class="sub-nav-group">
               <li><a href="about/3dim-page.html">3 Dimensions</a></li>
@@ -40,23 +82,26 @@
               <li><a href="about/usercontinue-page.html">User-Continued Design</a></li>
             </ul>
           </div>
-        </li>
-        <li class="nav-item">
-          <a href="guide/guides-page.html">Guides</a>
-          <div class="sub-nav">
-            <ul class="sub-nav-group">
-              <li><a href="guide/noncom-page.html">Noncommercial Images</a></li>
-              <li><a href="guide/incldocu-page.html">Inclusive Document</a></li>
-              <li><a href="guide/alttext-page.html">Alternative Text</a></li>
-              <li><a href="guide/creative-page.html">Creative Commons License</a></li>
-            </ul>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a href="discussion-page.html">Discussion</a>
-        </li>
-      </ul>
-    </nav>
+        </i>
+      </li>
+      <li class="nav-item">
+        <a href="guide/guides-page.html">Guides</a>
+        <i class="icon"></i>
+        <div class="sub-nav">
+          <ul class="sub-nav-group">
+            <li><a href="guide/noncom-page.html">Noncommercial Images</a></li>
+            <li><a href="guide/incldocu-page.html">Inclusive Document</a></li>
+            <li><a href="guide/alttext-page.html">Alternative Text</a></li>
+            <li><a href="guide/creative-page.html">Creative Commons License</a></li>
+          </ul>
+        </div>
+      </i>
+    </li>
+    <li class="nav-item">
+      <a href="discussion-page.html">Discussion</a>
+    </li>
+  </ul>
+</nav>
   </div>
   </header>
 
