@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Guides | Inclusion through Design</title>
+  <title>Visibility</title>
   <link rel="stylesheet" href="../style.css">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100|Palanquin:300" rel="stylesheet">
   <script src="../js/jquery-1.10.1.min.js"></script>
@@ -11,7 +11,6 @@
 </head>
 
 <body>
-
   <header>
     <a href="../index.html"><img src="../pictures/logo_large_idrc.png" alt="IDRC/OCAD U logo" style="height:3.45em"; title="Click here to go to the homepage"; ></a>
     <nav>
@@ -20,7 +19,7 @@
           <a href="../index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a href="../about/about-page.html">About</a>
+          <a>About</a>
           <div class="sub-nav">
             <ul class="sub-nav-group">
               <li><a href="../about/3dim-page.html">3 Dimensions</a></li>
@@ -34,29 +33,44 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class= "active" href="guides-page.html">Guides</a>
+          <a class= "active">Guides</a>
           <div class="sub-nav">
             <ul class="sub-nav-group">
               <li><a href="noncom-page.html">Noncommercial Images</a></li>
               <li><a href="incldocu-page.html">Inclusive Document</a></li>
               <li><a href="alttext-page.html">Alternative Text</a></li>
               <li><a href="creative-page.html">Creative Commons License</a></li>
+              <li><a class="subactive" href="visibility-page.html">Visibility</a></li>
+              <li><a href="handbook-page.html">The Inclusive Design Handbook</a></li>
             </ul>
           </div>
         </li>
         <li class="nav-item">
-          <a href="../discussion-page.html">Discussion</a>
+          <a href="../glossary-page.html">Glossary</a>
         </li>
       </ul>
     </nav>
   </header>
 
   <div class="title">
-    <h1>guides</h1>
+    <h1>visibility</h1>
   </div>
 
   <div class="content">
-
+    <h2>The WCAG</h2>
+    <p>When picking the colour scheme, colours are typically chosen for its appeal and symbolism. However, when designing inclusively the colour schemes chosen must be visible for all viewers.
+      <br>
+      This means that rather than simply considering colour, contrast must also be considered. According to the WCAG 2.0 (the Web Content Accessibility Guidelines) the contrast between text and images of text must be at least 4.5:1.
+      There are some exceptions:
+      Large-scale text should have a contrast ratio of at least 3:1.
+      Text that is purely decorational or that are not visible to anyone have no contrast requirement.
+      Text that is part of a logo or brand name has no minimum contrast requirement.<br>
+    </p>
+    <h2>Resource</h2>
+    <p><a href="http://colororacle.org/index.html" >Colour Oracle</a> is a free colour impaired simulator, that is bot open source and available on GitHub<br>
+      <a href="http://contrastchecker.com">Contrast Checker</a> provides you with the contrast ration and insight on whether or not you’ve passed the various WCAG tests for different font weight.<br>
+      <a href="http://colorsafe.co/">Color Safe</a> Given the font type background colour and font-family, font-size (px). Font-weight and WCAG standard, colorsafe.co will provide you with a list of colours that will satisfy the contrast ratio, and still look nice.
+    </p>
   </div>
 </body>
 

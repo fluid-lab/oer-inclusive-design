@@ -21,7 +21,7 @@ span{
 
 h2 {
   color: #4d4b4c;
-  font-size: 4.5em;
+  font-size: 3.6em;
   text-align: center;
   font-weight: 200;
   letter-spacing: 1.75;
@@ -161,6 +161,7 @@ navigation item */
 
 /* sub-navigation panel */
 .sub-nav {
+  width: 16em;
   position: absolute;
   display: none;
   padding-left: 2.5em;
