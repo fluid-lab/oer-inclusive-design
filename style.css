@@ -210,6 +210,11 @@ nav a {
   padding: 15px 25px;
 }
 
+.secretpt2{
+  display: none;
+  opacity: 0;
+}
+
 @media only screen
 and (max-width: 1300px) {
   .column1, .column2, .column3, .column4, .column5, .column6{
@@ -219,6 +224,7 @@ and (max-width: 1300px) {
 }
 
 @media screen and (max-width : 1017px){
+
   .secret{
     color: #fff;
     display: block;
@@ -228,9 +234,7 @@ and (max-width: 1300px) {
     height: 56px;
     z-index: :0;
   }
-  .secretpt2{
-    opacity: 0;
-  }
+
 
   #nav-icon3{
     width: 30px;
