@@ -219,7 +219,18 @@ and (max-width: 1300px) {
 }
 
 @media screen and (max-width : 1017px){
-
+  .secret{
+    color: #fff;
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 56px;
+    z-index: :0;
+  }
+  .secretpt2{
+    opacity: 0;
+  }
 
   #nav-icon3{
     width: 30px;
@@ -322,10 +333,7 @@ and (max-width: 1300px) {
     display:block;
     float:  right;
   }
-  .sub-nav {
-    position: relative;
-    display: none;
-  }
+
   header {
     width: 100%;
     display: block;
@@ -338,6 +346,10 @@ and (max-width: 1300px) {
     position: relative;
     padding: 0;
     margin: 0;
+  }
+  .sub-nav {
+    position: relative;
+    display: none;
   }
   .active {
     background-color: #f4f4f4;
