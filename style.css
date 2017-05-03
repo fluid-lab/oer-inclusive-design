@@ -51,6 +51,15 @@ p {
   font-family: 'Palanquin', sans-serif;
 }
 
+ol{
+  color: black;
+  font-size: 1.3em;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  padding: 2px 25px;
+  font-family: 'Palanquin', sans-serif;
+}
+
 div.desc {
   text-align: center;
   letter-spacing: 1.0px;
@@ -73,6 +82,10 @@ button {
   background-color: #fff;
   border: none;
   display: none;
+}
+
+#picture{
+  width: 80%;
 }
 
 footer {
@@ -224,6 +237,10 @@ nav a {
   opacity: 0;
 }
 
+.definitions{
+  margin-top: -1.5em;
+}
+
 #paragraphlistitem{
   color: black;
   font-size: 1.3em;
@@ -235,6 +252,10 @@ nav a {
 #footerimage{
   border-width: 0;
   float: left;
+}
+
+.glossarynav{
+  text-align:center;
 }
 
 .space{
@@ -339,6 +360,10 @@ nav a {
   .nav-item > a {
     padding-right: 0em;
     padding-left: 0em;
+  }
+
+  .definitions{
+    margin-top: -2em;
   }
 
   .secret{
