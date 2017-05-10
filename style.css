@@ -51,7 +51,7 @@ p {
   font-family: 'Palanquin', sans-serif;
 }
 
-ol{
+ol {
   color: black;
   font-size: 1.3em;
   letter-spacing: 1px;
@@ -90,13 +90,9 @@ button {
 
 footer {
   width: inherit;
-  padding: 0.5em;
-  padding-right: 7em;
-  padding-left: 7em;
-  padding-bottom: 1.5em;
+  padding: 1em 7em;
   background-color: #f4f4f4;
   text-align: right;
-  position: relative;
   bottom: 0;
   left: 0;
   right: 0;
@@ -232,7 +228,7 @@ nav a {
   padding: 15px 25px;
 }
 
-.secretpt2{
+.emptysubnavpt2{//emptysubnav and emptysubnavpt2 is for hiding the menu in mobile mode
   display: none;
   opacity: 0;
 }
@@ -241,7 +237,7 @@ nav a {
   margin-top: -1.5em;
 }
 
-#paragraphlistitem{
+.paragraphListItem{
   color: black;
   font-size: 1.3em;
   letter-spacing: 1px;
@@ -366,7 +362,7 @@ nav a {
     margin-top: -2em;
   }
 
-  .secret{
+  .emptysubnav{ //emptysubnav and emptysubnavpt2 is for hiding the menu in mobile mode
     color: #fff;
     display: block;
     list-style-type: none;
