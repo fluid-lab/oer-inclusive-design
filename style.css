@@ -87,6 +87,8 @@ button {
 #picture{
   width: 70%;
   padding: 1em;
+  padding-top: 0em;
+  padding-bottom: 2em;
 }
 
 footer {
@@ -109,7 +111,7 @@ div.title {
   height: auto;
   background-color: #f4f4f4;
   margin: 0;
-  padding: 4em 24em;
+  padding: 2em 24em;
 }
 
 div.content {
@@ -118,8 +120,8 @@ div.content {
   margin: 0;
   padding-right: 24em;
   padding-left: 24em;
-  padding-top: 6em;
-  padding-bottom: 12em;
+  padding-top: 3em;
+  padding-bottom: 8em;
 }
 
 /* mega menu list */
