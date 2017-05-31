@@ -94,6 +94,7 @@ button {
   padding: 1em;
   padding-top: 0em;
   padding-bottom: 2em;
+  margin: 0;
 }
 
 footer {
@@ -236,6 +237,17 @@ nav a {
   padding: 15px 25px;
 }
 
+.column {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+
+#pForHome{
+margin: 0;
+margin-bottom: 1em;
+}
+
 .emptysubnavpt2{//emptysubnav and emptysubnavpt2 is for hiding the menu in mobile mode
   display: none;
   opacity: 0;
@@ -271,6 +283,14 @@ nav a {
 .space{
   padding-right: 2em;
 }
+}
+
+@media only screen and (max-width: 1500px) {
+  .column {
+      -webkit-column-count: 1; /* Chrome, Safari, Opera */
+      -moz-column-count: 1; /* Firefox */
+      column-count: 1;
+  }
 }
 
 @media only screen and (max-width: 1300px) {
