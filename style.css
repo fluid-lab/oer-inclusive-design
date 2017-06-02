@@ -83,7 +83,7 @@ header {
   padding: 0em 7em;
 }
 
-button {
+button#nav-icon3{
   background-color: #fff;
   border: none;
   display: none;
@@ -94,7 +94,12 @@ button {
   padding: 1em;
   padding-top: 0em;
   padding-bottom: 2em;
-  margin: 0;
+  margin: auto;
+  display: block;
+}
+
+div.displayPreference{
+min-height: 2em;
 }
 
 footer {
