@@ -166,6 +166,7 @@ div.content {
 
 .active {
   background-color: #f4f4f4;
+  min-height: 55.19px;
   color: #000;
   cursor: default;
   text-decoration: overline;
