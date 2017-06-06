@@ -1,0 +1,45 @@
+/* a top level navigation item in the mega menu */
+.nav-item {
+  color: #000;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0;
+  font-family: 'Palanquin', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  height: 55.19px;
+
+}
+
+.active {
+  background-color: #f4f4f4;
+  color: #000;
+  cursor: default;
+  text-decoration: overline;
+}
+
+.displayPreference{
+  float: none;
+  margin: 0;
+  text align: center;
+  min-height: 1em;
+  background-color: #f4f4f4;
+}
+
+.fl-panelBar{
+  border: 0 !important;
+  background-color: #f4f4f4 !important;
+}
+.fl-prefsEditor-buttons{
+  box-shadow: none !important;
+  border: 0 !important;
+  background-color: #f4f4f4 !important;
+  margin: 0 !important;
+  float: none !important;
+  text-align: center;
+  min-height: 1em !important;
+}
+
+.flc-prefsEditor-reset, .fl-prefsEditor-reset, .flc-slidingPanel-toggleButton, .fl-prefsEditor-showHide, .fl-icon-undo{
+  background-color: #f4f4f4 !important;
+}
