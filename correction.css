@@ -4,10 +4,6 @@
   text-decoration: none;
   display: inline-block;
   margin: 0;
-  font-family: 'Palanquin', sans-serif;
-  text-transform: uppercase;
-  font-size: 1.2em;
-  height: 55.19px;
   overflow: hidden;
 }
 
@@ -16,7 +12,6 @@
   color: #000;
   cursor: default;
   text-decoration: overline;
-  height: inherit;
 }
 
 .displayPreference{
