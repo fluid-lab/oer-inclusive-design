@@ -46,3 +46,7 @@
   display: block;
   padding: 0 5em;
 }
+
+#hiddenMenuForMobile{
+  height: 1px !important;
+}

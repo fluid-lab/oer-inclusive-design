@@ -209,7 +209,7 @@ div.content {
   size: inherit;*/
   position: relative;
   display: inline-block;
-  padding: 0.85em;
+  padding: 1em;
   padding-right: 2em;
   padding-left: 2em;
   border: 1px solid transparent;
@@ -509,11 +509,11 @@ margin-bottom: 1em;
     left: 50%;
   }
 
-  #menu {
+  #hiddenMenuForMobile{
     display: none;
   }
 
-  #menu.mobileOpen {
+  #hiddenMenuForMobile.mobileOpen {
     display: block;
   }
 }
