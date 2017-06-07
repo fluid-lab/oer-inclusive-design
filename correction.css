@@ -8,7 +8,7 @@
   text-transform: uppercase;
   font-size: 1.2em;
   height: 55.19px;
-
+  overflow: hidden;
 }
 
 .active {
@@ -16,6 +16,7 @@
   color: #000;
   cursor: default;
   text-decoration: overline;
+  height: inherit;
 }
 
 .displayPreference{
@@ -42,4 +43,11 @@
 
 .flc-prefsEditor-reset, .fl-prefsEditor-reset, .flc-slidingPanel-toggleButton, .fl-prefsEditor-showHide, .fl-icon-undo{
   background-color: #f4f4f4 !important;
+}
+
+#fluid{
+  font-family: 'Palanquin', sans-serif;
+  font-size: 1.2em;
+  display: block;
+  padding: 0 5em;
 }

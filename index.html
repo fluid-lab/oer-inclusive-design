@@ -97,7 +97,7 @@
 
       </div>
 
-      <nav class="flc-toc-tocContainer"> </nav>
+      <nav id="fluid" class="flc-toc-tocContainer"> </nav>
 
       <div class="content">
         <h2>Have you ever found yourself unable to use a product or service meant for “everyone”?</h2>
@@ -124,16 +124,16 @@
       </footer>
 
       <script type="text/javascript">
-                  $(document).ready(function () {
-                      fluid.uiOptions.prefsEditor(".flc-prefsEditor-separatedPanel", {
-                          tocTemplate: "infusion/src/components/tableOfContents/html/TableOfContents.html",
-                          terms: {
-                              templatePrefix: "infusion/src/framework/preferences/html",
-                              messagePrefix: "infusion/src/framework/preferences/messages"
-                          }
-                      });
-                  })
-              </script>
+      $(document).ready(function () {
+        fluid.uiOptions.prefsEditor(".flc-prefsEditor-separatedPanel", {
+          tocTemplate: "infusion/src/components/tableOfContents/html/TableOfContents.html",
+          terms: {
+            templatePrefix: "infusion/src/framework/preferences/html",
+            messagePrefix: "infusion/src/framework/preferences/messages"
+          }
+        });
+      })
+      </script>
 
   </body>
 </html>
