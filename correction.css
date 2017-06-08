@@ -22,31 +22,26 @@
   background-color: #f4f4f4;
 }
 
-.fl-panelBar{
-  border: 0 !important;
-  background-color: #f4f4f4 !important;
-}
-.fl-prefsEditor-buttons{
-  box-shadow: none !important;
-  border: 0 !important;
-  background-color: #f4f4f4 !important;
-  margin: 0 !important;
-  float: none !important;
+
+.fl-prefsEditor-separatedPanel .fl-panelBar .fl-prefsEditor-buttons {
+  box-shadow: none;
+  border: 0;
+  background-color: #f4f4f4;
+  margin: 0;
+  float: none;
   text-align: center;
-  min-height: 1em !important;
+  min-height: 1em;
 }
 
-.flc-prefsEditor-reset, .fl-prefsEditor-reset, .flc-slidingPanel-toggleButton, .fl-prefsEditor-showHide, .fl-icon-undo{
-  background-color: #f4f4f4 !important;
+.fl-prefsEditor-separatedPanel .fl-prefsEditor-showHide,
+.fl-prefsEditor-separatedPanel .fl-prefsEditor-reset,
+.fl-prefsEditor-separatedPanel .fl-icon-undo{
+  background-color: #f4f4f4;
 }
 
 #fluid{
   font-family: 'Palanquin', sans-serif;
   font-size: 1.2em;
   display: block;
-  padding: 0 5em;
-}
-
-#hiddenMenuForMobile{
-  height: 1px !important;
+  padding: 0 8em;
 }
