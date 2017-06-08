@@ -11,10 +11,10 @@ img {
 
 h1 {
   color: #2574a9;
-  font-size: 5.8em;
+  font-size: 5.2em;
   text-align: center;
   font-weight: 200;
-  letter-spacing: 1.75;
+  letter-spacing: 1.6;
   font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -24,7 +24,7 @@ span{
 
 h2 {
   color: #4d4b4c;
-  font-size: 3.8em;
+  font-size: 3.5em;
   text-align: center;
   font-weight: 200;
   letter-spacing: 1.75;
@@ -93,6 +93,7 @@ button#nav-icon3{
   background-color: #fff;
   border: none;
   display: none;
+  margin-top: 1.8em;
 }
 
 #picture{
@@ -136,7 +137,7 @@ div.title {
   height: auto;
   background-color: #f4f4f4;
   margin: 0;
-  padding: 2em 15em;
+  padding: 1.2em 8em;
 
 }
 
@@ -171,16 +172,6 @@ div.content {
 
 /* a top level navigation item in the mega menu */
 .nav-item {
-  /*
-  color: #000;
-  text-decoration: none;
-  display: inline-block;
-  margin: 0;
-  font-family: 'Palanquin', sans-serif;
-  text-transform: uppercase;
-  font-size: 1.2em;
-  padding: 2em 1em;*/
-
   color: #000;
   text-decoration: none;
   display: inline-block;
@@ -204,9 +195,6 @@ div.content {
 
 /* first descendant link within a top level navigation item */
 .nav-item > a {
-/*  position: relative;
-  display: inline-block;
-  size: inherit;*/
   position: relative;
   display: inline-block;
   padding: 1em;
@@ -341,15 +329,15 @@ margin-bottom: 1em;
   }
 
   h1{
-    font-size: 3em;
+    font-size: 2.5em;
   }
 
   h2{
-    font-size: 2em;
+    font-size: 1.8em;
   }
 
   h3{
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
 
   p{
@@ -357,22 +345,22 @@ margin-bottom: 1em;
   }
 
   div.title {
-    padding-right: 4em;
-    padding-left: 4em;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-right: 3em;
+    padding-left: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
   }
 
   div.content {
-    padding-right: 4em;
-    padding-left: 4em;
+    padding-right: 3em;
+    padding-left: 3em;
     padding-top: 2em;
-    padding-bottom: 6em;
+    padding-bottom: 4em;
   }
 
-  button{
+  button#nav-icon3{
       float: right;
-      display: block
+      display: block;
   }
 
   header {
