@@ -197,7 +197,7 @@ div.content {
 .nav-item > a {
   position: relative;
   display: inline-block;
-  padding: 1em;
+  padding: 0.5em;
   padding-right: 2em;
   padding-left: 2em;
   border: 1px solid transparent;
@@ -324,6 +324,17 @@ margin-bottom: 1em;
 }
 
 @media screen and (max-width : 1017px){
+  header.navMenuHeader{
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+  }
+
+  #logo{
+    padding: 0;
+    margin: 0 auto;
+    }
+
   nav a {
     width: 100%;
   }
@@ -379,13 +390,14 @@ margin-bottom: 1em;
     background-color: #fff;
     float: center;
     width: 100vw;
+   height: auto;
   }
 
   .nav-item {
     width: 100%;
     text-align: center;
     position: relative;
-    padding: 0;
+    padding: 0
     margin: 0;
   }
 
@@ -427,7 +439,7 @@ margin-bottom: 1em;
     width: 30px;
     height: 22.5px;
     position: relative;
-    margin: 20px;
+    margin: 5px;
     margin-top: 5px;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -497,11 +509,11 @@ margin-bottom: 1em;
     left: 50%;
   }
 
-  #hiddenMobileMenu{
+  #menu{
     display: none;
   }
 
-  #hiddenMobileMenu.mobileOpen {
+  #menu.mobileOpen {
     display: block;
   }
 }

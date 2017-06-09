@@ -70,3 +70,21 @@
     padding-top: .4em;
   }
 }
+
+@media screen and (max-width : 1017px){
+  .nav-item {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding: 0;
+    margin: 0;
+  }
+
+  .emptysubnav {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+}

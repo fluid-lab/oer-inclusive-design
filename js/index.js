@@ -10,7 +10,7 @@ var oer = oer || {};
 
 	$(document).ready(function(){
 		oer.menuToggleIcon = $("#nav-icon3");
-		oer.menu = $("#hiddenMobileMenu");
+		oer.menu = $("#menu");
 
 		oer.menuStateAssignment(oer.menu, oer.menuToggleIcon);
 
