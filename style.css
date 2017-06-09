@@ -159,7 +159,6 @@ div.content {
   background-color: #fff;
   float: right;
   list-style: none;
-  height: 3.2em;
   margin: 0;
   padding: 0;
   z-index: 15;
@@ -182,7 +181,6 @@ div.content {
 }
 
 .active {
-  height: inherit;
   background-color: #f4f4f4;
   color: #000;
   cursor: default;
@@ -322,18 +320,23 @@ margin-bottom: 1em;
     width: 100%;
   }
 }
+@media screen and (min-width: 1018px){
+  .nav-item{
+    height: 62px;
+  }
 
+  .nav-item>a{
+    height: 35px;
+    padding-top: 1em;
+
+  }
+}
 @media screen and (max-width : 1017px){
   header.navMenuHeader{
     padding: 0;
     display: inline-block;
     width: 100%;
   }
-
-  #logo{
-    padding: 0;
-    margin: 0 auto;
-    }
 
   nav a {
     width: 100%;
@@ -397,7 +400,7 @@ margin-bottom: 1em;
     width: 100%;
     text-align: center;
     position: relative;
-    padding: 0
+    padding: 0;
     margin: 0;
   }
 
@@ -430,8 +433,8 @@ margin-bottom: 1em;
     display: block;
     list-style-type: none;
     margin: 0;
+    height: 45px;
     padding: 0;
-    height: 56px;
     z-index: :0;
   }
 

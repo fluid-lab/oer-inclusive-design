@@ -1,19 +1,4 @@
 /* a top level navigation item in the mega menu */
-.nav-item {
-  color: #000;
-  text-decoration: none;
-  display: inline-block;
-  margin: 0;
-  overflow: hidden;
-}
-
-.active {
-  background-color: #f4f4f4;
-  color: #000;
-  cursor: default;
-  text-decoration: overline;
-}
-
 .displayPreference{
   float: none;
   margin: 0;
@@ -78,6 +63,13 @@
     position: relative;
     padding: 0;
     margin: 0;
+  }
+
+  .active {
+    background-color: #f4f4f4;
+    color: #000;
+    cursor: default;
+    text-decoration: overline;
   }
 
   .emptysubnav {
