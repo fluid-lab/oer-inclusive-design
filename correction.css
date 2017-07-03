@@ -1,0 +1,82 @@
+/* a top level navigation item in the mega menu */
+.displayPreference{
+  float: none;
+  margin: 0;
+  text align: center;
+  min-height: 1em;
+  background-color: #f4f4f4;
+}
+
+.fl-prefsEditor-separatedPanel .fl-panelBar .fl-prefsEditor-buttons {
+  box-shadow: none;
+  border: 0;
+  background-color: #f4f4f4;
+  margin: 0;
+  float: none;
+  text-align: center;
+}
+
+.fl-prefsEditor-separatedPanel .fl-prefsEditor-showHide,
+.fl-prefsEditor-separatedPanel .fl-prefsEditor-reset,
+.fl-prefsEditor-separatedPanel .fl-icon-undo{
+  background-color: #f4f4f4;
+}
+
+#fluid{
+  font-family: 'Palanquin', sans-serif;
+  font-size: 1.2em;
+  display: block;
+  padding: 0 8em;
+}
+
+@media only screen and (max-width: 640px){
+
+  header.navMenuHeader{
+    padding-top: 0.3em;
+  }
+
+  .displayPreference{
+    min-height: 0.5em;
+  }
+
+  .fl-prefsEditor-separatedPanel .fl-panelBar .fl-prefsEditor-buttons {
+    max-height: 1.5em;
+  }
+
+  .fl-prefsEditor-separatedPanel .fl-panelBar{
+    box-shadow: none;
+    border: 0;
+  }
+
+  .fl-prefsEditor-separatedPanel .fl-prefsEditor-showHide,
+  .fl-prefsEditor-separatedPanel .fl-prefsEditor-reset,
+  .fl-prefsEditor-separatedPanel .fl-icon-undo{
+    font-size: 1em;
+    padding-top: .4em;
+  }
+}
+
+@media screen and (max-width : 1017px){
+  .nav-item {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding: 0;
+    margin: 0;
+  }
+
+  .active {
+    background-color: #f4f4f4;
+    color: #000;
+    cursor: default;
+    text-decoration: overline;
+  }
+
+  .emptysubnav {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+}
